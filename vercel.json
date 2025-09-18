@@ -1,0 +1,5 @@
+{
+  "rewrites": [
+    { "source": "/player.m3u8", "destination": "/index.html" }
+  ]
+}
