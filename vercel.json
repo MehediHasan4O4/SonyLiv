@@ -1,8 +1,0 @@
-{
-  "rewrites": [
-    { "source": "/player.m3u8", "destination": "/api/player" }
-  ],
-  "redirects": [
-    { "source": "/", "destination": "/404", "permanent": false }
-  ]
-}
