@@ -1,0 +1,18 @@
+{
+  "name": "hls-restream-worker",
+  "version": "1.0.0",
+  "description": "Cloudflare Worker for HLS restreaming",
+  "private": true,
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "deploy:prod": "wrangler deploy --env production"
+  },
+  "keywords": ["cloudflare-workers", "hls", "streaming"],
+  "author": "Asker",
+  "license": "MIT",
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  }
+}
