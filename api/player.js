@@ -1,5 +1,5 @@
 export default async function handler(req, res) {
-  const url = 'http://89.187.189.98/BBCEARTHHD/index.m3u8';
+  const url = 'https://tiger-hub.vercel.app/SONY/SAB /tracks-v1a1/mono.ts.m3u8';
 
   try {
     const response = await fetch(url, {
