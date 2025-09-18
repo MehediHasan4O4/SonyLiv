@@ -1,5 +1,5 @@
 export default async function handler(req, res) {
-  const url = 'https://tvsen4.aynaott.com/durontotv/index.m3u8';
+  const url = 'http://89.187.189.98/BBCEARTHHD/index.m3u8';
 
   try {
     const response = await fetch(url, {
