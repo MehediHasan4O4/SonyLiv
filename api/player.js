@@ -1,5 +1,5 @@
 export default async function handler(req, res) {
-  const url = 'https://dai.google.com/linear/hls/event/daYZdmQGR6CnlLWkjW7MhQ/master.m3u8';
+  const url = 'https://tvsen4.aynaott.com/durontotv/index.m3u8';
 
   try {
     const response = await fetch(url, {
